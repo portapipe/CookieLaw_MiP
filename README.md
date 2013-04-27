@@ -8,9 +8,7 @@ SISTEMA AUTOMATICO DI VERIFICA COOKIE PER LA COOKIE LAW, LEGGE SUI COOKIE.
 
 http://portapipe.wordpress.com
 
-Perché funzioni inserire dentro il tag <head>(qui)</head> il seguente codice:
-
-<script language="JavaScript" type="text/javascript" src="_cookielaw.js"></script>
+Perché funzioni includere il file "_cookielaw_mip.js" nel tag HEAD del vostro sito.
 
 
 
