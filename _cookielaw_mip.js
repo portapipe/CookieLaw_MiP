@@ -28,19 +28,6 @@ var AccettoBtn = "Accetto"
 //-------------------------------------------------------------
 //-------------------------------------------------------------
 
-function getCookie(nomecookie) {
-    var i, x, y, array = document.cookie.split(";");
-    for (i = 0; i < array.length; i++) {
-        x = array[i].substr(0, array[i].indexOf("="));
-        y = array[i].substr(array[i].indexOf("=") + 1);
-        x = x.replace(/^\s+|\s+$/g, "");
-        if (x == nomecookie) {
-            return unescape(y);
-        }
-    }
-}
-
-
 function mostraAvviso() {
 
     var message = "<div id='CookieLaw'> <div style='text-align:center; margin:0px; padding:10px; width:auto; background:grey; color:white; font-size:18px;'>";
@@ -65,6 +52,20 @@ function setCookie(nomecookie, valore, finegiorni) {
     var valoreCookie = escape(valore) + ((finegiorni == null) ? "" : "; expires=" + datafine.toUTCString() + "; path=/");
     document.cookie = nomecookie + "=" + valoreCookie;    
 }
+
+
+function getCookie(nomecookie) {
+    var i, x, y, array = document.cookie.split(";");
+    for (i = 0; i < array.length; i++) {
+        x = array[i].substr(0, array[i].indexOf("="));
+        y = array[i].substr(array[i].indexOf("=") + 1);
+        x = x.replace(/^\s+|\s+$/g, "");
+        if (x == nomecookie) {
+            return unescape(y);
+        }
+    }
+}
+
 
 function checkCookie() {
 
