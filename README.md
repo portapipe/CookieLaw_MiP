@@ -13,5 +13,4 @@ Perché funzioni inserire dentro il tag <head>(qui)</head> il seguente codice:
 
 
 Potete modificare nelle prime righe del file il messaggio che comparirà e il testo del pulsante!
-Non necessita di conoscere il liguaggio javascript, dovete solo modificare il testo esistente con 
-quello di vostro gradimento.
+Non necessita di conoscere il liguaggio javascript, dovete solo modificare il testo esistente con quello di vostro gradimento.
