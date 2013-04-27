@@ -30,7 +30,7 @@ var AccettoBtn = "Accetto"
 
 function mostraAvviso() {
 
-    var message = "<div id='CookieLaw'> <div style='text-align:center; margin:0px; padding:10px; width:auto; background:grey; color:white; font-size:18px;'>";
+    var message = "<div id='CookieLaw'> <div style='text-align:center; margin:0px; padding:10px; width:100%; background:grey; color:white; font-size:18px; position:fixed; z-index:10000000'>";
 
     message = message + Messaggio + "&nbsp;&nbsp;&nbsp;&nbsp;";
 
