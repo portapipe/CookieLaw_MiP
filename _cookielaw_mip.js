@@ -36,9 +36,11 @@ function mostraAvviso() {
 
     message = message + "<button type='button' name='' onClick='JavaScript:Accetta();' value='' style='cursor:pointer;   font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #079400;padding: 10px 20px;background: -moz-linear-gradient(top,#ffffff 0%,#ffffff 50%,#b5b5b5);background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),color-stop(0.50, #ffffff),to(#b5b5b5));-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;border: 3px solid #2ea100;-moz-box-shadow:0px 1px 3px rgba(000,000,000,0.5),inset 0px 0px 3px rgba(255,255,255,1);-webkit-box-shadow:0px 1px 3px rgba(000,000,000,0.5),inset 0px 0px 3px rgba(255,255,255,1);box-shadow:0px 1px 3px rgba(000,000,000,0.5),inset 0px 0px 3px rgba(255,255,255,1);text-shadow:0px -1px 0px rgba(000,000,000,0.2),0px 1px 0px rgba(255,255,255,1);'>" + AccettoBtn + "</button>";
 
-    message = message + "</div></div>";
+    message = message + "</div></div><div style='height:65px'></div>";
 
     document.writeln(message);
+
+
 }
 
 function Accetta() {
