@@ -7,19 +7,30 @@
 // SISTEMA AUTOMATICO DI VERIFICA COOKIE PER LA COOKIE LAW, LEGGE SUI COOKIE.
 // http://portapipe.wordpress.com
 //
-// Perché funzioni inserire dentro il tag <head>(qui)</head> il seguente codice:
+// Perché funzioni devi inserire dentro il tag <head>(qui)</head> il seguente codice:
 //
 // <script language="JavaScript" type="text/javascript" src="_cookielaw_mip.js"></script>
 //
 
+// Come Funziona:
+// L'utente entra nel sito e gli compare una barra in alto con un Messaggio e un Bottone.
+// Cliccando sul bottone la barra non gli comparirà più (anche in caso di redirect).
+// Si può anche settare un redirect alla pagina della privacy, basta aggiungere
+// il link nella variabile qui sotto.
+
+
 //
-// Potete modificare i due parametri seguenti: Il messaggio che comparirà e il testo del pulsante
+// Puoi modificare i tre parametri seguenti: Il messaggio che comparirà,
+// il testo del pulsante e il redirect
 //
-//Modifica il messaggio di avviso di utilizzo cookie da qui
+// Modifica il messaggio di avviso di utilizzo cookie da qui
 var Messaggio = "Questo sito utilizza i cookie per assicurarvi una navigazione ottimale!"
 
 // Qui il testo del bottone
 var AccettoBtn = "Accetto"
+
+// Se vuoi che il bottone reindirizzi ad una pagina (altrimenti lascialo vuoto)
+var Redirect = ""
 
 
 //-------------------------------------------------------------
@@ -46,6 +57,10 @@ function mostraAvviso() {
 function Accetta() {
     setCookie("CookieEu", null, 365);
     location.reload(true);
+    //Gestione del Redirect
+    if(redirect!=""){
+        window.location.href = "" + redirect;
+    }
 }
 
 function setCookie(nomecookie, valore, finegiorni) {
