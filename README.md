@@ -14,7 +14,7 @@ https://portapipe.wordpress.com/2013/04/27/script-legge-cookie-ue-1-solo-file-pe
 
 Perché funzioni includere il file "_cookielaw_mip.js" nel tag HEAD del sito:
 
-<script language="JavaScript" type="text/javascript" src="_cookielaw_mip.js"></script>
+```<script language="JavaScript" type="text/javascript" src="_cookielaw_mip.js"></script>```
 
 
 Puoi modificare nelle prime righe del file il messaggio che comparirà, il testo del pulsante e il link per leggere la normativa sui cookie!
