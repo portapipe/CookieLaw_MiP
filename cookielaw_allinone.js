@@ -53,7 +53,7 @@ FULL
 var cookieLaw = document.getElementById('cookieLaw');
 var Messaggio = cookieLaw.getAttribute('data-titolo');
 var AccettoBtn = cookieLaw.getAttribute('data-bottone');
-var maggioriInfoBtn = "Maggiori Informazioni";
+var maggioriInfoBtn = cookieLaw.getAttribute('data-info');
 var Redirect = cookieLaw.getAttribute('data-linkCookie');
 var sito = cookieLaw.getAttribute('data-sito');
 var nome = cookieLaw.getAttribute('data-nome');
