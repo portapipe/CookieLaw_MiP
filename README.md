@@ -5,6 +5,15 @@ Un solo file per rispettare la Legge Cookie dell'Unione Europea (obbligatoria da
 
 SISTEMA AUTOMATICO DI VERIFICA COOKIE PER LA COOKIE LAW, LEGGE SUI COOKIE.
 
+---
+CDN (usa lo script senza scaricare il file!)
+
+```<script type="text/javascript" src="https://cdn.rawgit.com/portapipe/CookieLaw_MiP/master/_cookielaw_mip.js"></script>```
+
+---
+
+
+
 Blog
 http://portapipe.wordpress.com
 
