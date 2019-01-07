@@ -9,7 +9,7 @@ Un solo file per rispettare la Legge Cookie dell'Unione Europea (obbligatoria da
 ###### FILE ALL IN ONE: TUTTO IN UN SOLO FILE CHE NEMMENO VA SCARICATO! (puoi anche scaricarlo se ti serve)
 ```html5
 <script type="text/javascript"
-        src="https://cdn.rawgit.com/portapipe/CookieLaw_MiP/master/cookielaw_allinone.js"
+        src="https://cdn.jsdelivr.net/gh/portapipe/CookieLaw_MiP@master/cookielaw_allinone.js"
         id="cookieLaw"
         data-titolo="Questo sito utilizza i cookie per assicurarvi una navigazione ottimale! Continuando la navigazione si accetta l'utilizzo dei cookie"
         data-bottone="Ok ho capito"
@@ -32,7 +32,7 @@ Perché funzioni includere il file "_cookielaw_mip.js" nel tag HEAD del sito:
 ```
 Oppure usa un link diretto [CDN] (usa lo script senza scaricare il file!)
 ```
-<script type="text/javascript" src="https://cdn.rawgit.com/portapipe/CookieLaw_MiP/master/_cookielaw_mip.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/portapipe/CookieLaw_MiP@master/cookielaw_allinone.js"></script>
 ```
 
 ---
